@@ -45,16 +45,27 @@ Variety of products listed.
           link_three_text="Github"
         />
          <Card
-          img={require('../images/cash-register.jpg')}
-          title="Cash Register"
-          description="An app that shows the cash change to return based on amount received."
-          technologies="Javascript - HTML - CSS"
-          link_two="cash-register-himanshu.netlify.app"
-          link_three="https://github.com/Himanshuub2/Cash-register/security"
+          img={require('../images/product-search.jpg')}
+          title="SmartPhone Gallery"
+          description="An app that shows Smartphones of companies and provide option to add them to Cart."
+          technologies="Javascript - HTML - CSS - React - Redux - MaterialUI "
+          link_two="https://product-search-redux.vercel.app/"
+          link_three="https://github.com/Himanshuub2/product-search"
           link_two_text="Website"
           link_three_text="Github"
         />
            <Card
+          img={require('../images/hasura-graphql.jpg')}
+          title="Hasura-Graphql"
+          description="Uses GraphQL to make API calls and Hasura cloud to Resolve and store data on Postgres "
+          technologies="Javascript - HTML - CSS - React - MaterialUI - GraphQL - Hasura "
+          link_two="https://graphql-hasura-mu.vercel.app/"
+          link_three="https://github.com/Himanshuub2/hasura-graphql"
+          link_two_text="Website"
+          link_three_text="Github"
+        />
+
+        <Card
           img={require('../images/birthday-luck.jpg')}
           title="Birthday Luck"
           description="Shows Wheather your birth day is lucky or not"
@@ -64,6 +75,7 @@ Variety of products listed.
           link_two_text="Website"
           link_three_text="Github"
         />
+
          <Card
           img={require('../images/height-measure.jpg')}
           title="Height Measurment"
@@ -74,6 +86,41 @@ Variety of products listed.
           link_two_text="Website"
           link_three_text="Github"
         />
+        
+         <Card
+          img={require('../images/ip-lookup.jpg')}
+          title="IP-LOOKUP"
+          description="Simple Web App that shows basic details like IP, Location, City , Country etc."
+          technologies="Javascript - HTML - CSS - API"
+          link_two="https://ip-tracker-beta-one.vercel.app/"
+          link_three="https://github.com/Himanshuub2/IP-Tracker"
+          link_two_text="Website"
+          link_three_text="Github"
+        />
+
+          <Card
+          img={require('../images/hamburger.jpg')}
+          title="Hambergur-Menu"
+          description="Animated Hamburger menu icon for your next web app."
+          technologies="Javascript - HTML - CSS"
+          link_two="https://hamburger-menu-chi.vercel.app/"
+          link_three="https://github.com/Himanshuub2/Hamburger-menu"
+          link_two_text="Website"
+          link_three_text="Github"
+        />
+
+        <Card
+          img={require('../images/cash-register.jpg')}
+          title="Cash Register"
+          description="An app that shows the cash change to return based on amount received."
+          technologies="Javascript - HTML - CSS"
+          link_two="cash-register-himanshu.netlify.app"
+          link_three="https://github.com/Himanshuub2/Cash-register/security"
+          link_two_text="Website"
+          link_three_text="Github"
+        />
+
+         
       </Grid>
     </ProjectsContainer>
   );
