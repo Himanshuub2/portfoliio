@@ -1,0 +1,24 @@
+
+
+.blur-image {
+    position:absolute;
+    height:100vh;
+    top:-3%;
+    left:65%;
+    filter:saturate(250%);
+    height:100vh;
+    width:auto;
+    animation: 10000ms linear 0s infinite normal none running k-fehnNV;
+    /* z-index: -1; */
+}
+
+@keyframes k-fehnNV{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+}

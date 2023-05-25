@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaGithub, FaLinkedin, FaEnvelope,FaTwitter } from 'react-icons/fa';
 import img from '../images/profile4.jpg';
+import blur from "../images/blur_image.png";
+import "./style.css";
 
 const Container = styled.div`
   height: calc(100vh - 7rem);
@@ -13,14 +15,14 @@ const Container = styled.div`
 const Home = () => {
   return (
     <Container>
-      <Introduction>
+      <Introduction >
         <ProfileCard>
           <div className="image-cropper">
             {/* <img src={require('../images/profile3.jpg')} alt="Profile" /> */}
           </div>
           <div className="profile-text">
             <div className="hi">Hi! I'm</div>
-            <h1>Himanshu&nbsp;Khemot</h1>
+            <h1 >Himanshu&nbsp;Khemot</h1>
           </div>
         </ProfileCard>
         <div className="short">
@@ -83,6 +85,9 @@ const Home = () => {
           </div>
         </Social>
       </Introduction>
+
+      <img src = {blur} className = "blur-image" />
+
     </Container>
   );
 };

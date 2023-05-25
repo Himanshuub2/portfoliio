@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import "../styles/Experience.css";
+import { Link } from 'react-router-dom';
+import mathco_logo from "../images/mathco_logo.png"
+import tcs_logo from "../images/tcs_logo.svg"
 
 const About = () => {
   return (
@@ -8,9 +11,39 @@ const About = () => {
       <h1>
         <span className="title">Experience</span>
       </h1>
-      <h1 style ={{marginLeft:"-45px",textDecoration:"underline"}}> Tata Consultancy Services</h1>
-      <h5 style={{marginTop:"-20px",marginBottom:"30px",color:"#87858d",fontStyle:"italic"}}>Mar'2021 - present</h5>
+      <a href="https://themathcompany.com/"
+        target='_blank'
+      >
+        <div>
+       
+        <h1 style ={{marginLeft:"-45px",textDecoration:"underline"}}> TataMathCompany, Bangalore</h1>
+        </div>
+      
+      </a>
+      <h5 style={{marginTop:"-20px",marginBottom:"30px",color:"#87858d",fontStyle:"italic"}}>Nov'2022 - present</h5>
       <Text style={{fontStyle:"italic",fontSize:"17px",marginTop:"-35px"}}>
+       <ul >
+        <li>Worked on a chatbot and organizational hierarchy app right from design, development to deployment.
+        </li>
+        <li>Collaborated with PM, Clients, and other Stack holders to gather requirements and conduct POC’s.
+        </li>
+        <li>Reduced HR Enquiries by roughly ~15% with both HR apps chatbot and organizational hierarchy.
+        </li>
+        </ul> 
+{/* ///////////////////////////////////////////// */}
+      
+<a href="https://www.tcs.com/"
+        target='_blank'
+      >
+        <div>
+          <image src = {mathco_logo}/>
+          <h1 style={{fontStyle:"normal",marginLeft:"-80px",color:"-webkit-link",textDecoration:"underline"}}> Tata Consultancy Services, Pune</h1>
+        </div>
+      
+      </a>
+
+      <h5 style={{marginTop:"-20px",marginBottom:"30px",color:"#87858d",fontStyle:"italic"}}>Mar'2021 - Nov'22</h5>
+     
        <ul >
         <li>Worked with Client Credit Suisse investment Bank on their Intellimatch-Account reconciliation
         Application.
